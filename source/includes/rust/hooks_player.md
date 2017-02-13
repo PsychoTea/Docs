@@ -145,7 +145,7 @@ void OnPlayerAttack(BasePlayer attacker, HitInfo info)
  * Useful for modifying an attack before it goes out
  * hitInfo.HitEntity should be the entity that this attack would hit
  * Returning true cancels the attack
- 
+
 ## OnPlayerChat
 
 ``` csharp
@@ -237,7 +237,7 @@ void OnPlayerInput(BasePlayer player, InputState input)
 ``` csharp
 void OnPlayerLand(BasePlayer player)
 {
-	Puts("OnPlayerLand works!");
+    Puts("OnPlayerLand works!");
 }
 ```
 
@@ -261,7 +261,7 @@ void OnPlayerLanded(BasePlayer player)
 ``` csharp
 void OnPlayerLootEnd(BasePlayer player)
 {
-	Puts("OnPlayerLootEnd works!");
+    Puts("OnPlayerLootEnd works!");
 }
 ```
  
@@ -273,7 +273,7 @@ void OnPlayerLootEnd(BasePlayer player)
 ``` csharp
 void OnPlayerRecover(BasePlayer player)
 {
-	Puts("OnPlayerRecover works!");
+    Puts("OnPlayerRecover works!");
 }
 ```
 
@@ -311,7 +311,7 @@ void OnPlayerRespawned(BasePlayer player)
 ``` csharp
 void OnPlayerSleep(BasePlayer player)
 {
-	Puts("OnPlayerSleep works!");
+    Puts("OnPlayerSleep works!");
 }
 ```
 
@@ -335,7 +335,7 @@ void OnPlayerSleepEnded(BasePlayer player)
 ``` csharp
 void OnPlayerSpectate(BasePlayer player, string spectateFilter)
 {
-	Puts("OnPlayerSpectate works!");
+    Puts("OnPlayerSpectate works!");
 }
 ```
 
@@ -347,7 +347,7 @@ void OnPlayerSpectate(BasePlayer player, string spectateFilter)
 ``` csharp
 void OnPlayerSpectateEnd(BasePlayer player, string spectateFilter)
 {
-	Puts("OnPlayerSpectateEnd works!");
+    Puts("OnPlayerSpectateEnd works!");
 }
 ```
  
@@ -359,7 +359,7 @@ void OnPlayerSpectateEnd(BasePlayer player, string spectateFilter)
 ``` csharp
 void OnPlayerTick(BasePlayer player, PlayerTick msg, bool wasPlayerStalled)
 {
-	Puts("OnPlayerTick works!");
+    Puts("OnPlayerTick works!");
 }
 ```
 
@@ -370,7 +370,7 @@ void OnPlayerTick(BasePlayer player, PlayerTick msg, bool wasPlayerStalled)
 ``` csharp
 void OnPlayerWound(BasePlayer player)
 {
-	Puts("OnPlayerWound works!");
+    Puts("OnPlayerWound works!");
 }
 ```
 
